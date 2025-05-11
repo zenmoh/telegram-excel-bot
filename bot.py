@@ -9,7 +9,7 @@ import nest_asyncio
 # إعداد بيئة async للعمل في السيرفرات
 nest_asyncio.apply()
 
-# تحميل متغيرات البيئة
+# تحميل متغيرات البيئة من ملف .env
 load_dotenv()
 TOKEN = os.getenv("TELEGRAM_API_TOKEN")
 
